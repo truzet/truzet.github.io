@@ -34,3 +34,71 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+```
+
+
+```
+```
+rovelif
+├─ eslint.config.mjs
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ background.jpg
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ next.svg
+│  ├─ vercel.svg
+│  └─ window.svg
+├─ README.md
+├─ src
+│  ├─ app
+│  │  ├─ about
+│  │  │  └─ page.tsx
+│  │  ├─ blog
+│  │  │  └─ page.tsx
+│  │  ├─ contact
+│  │  │  └─ page.tsx
+│  │  ├─ favicon.ico
+│  │  ├─ globals.css
+│  │  ├─ layout.tsx
+│  │  ├─ not-found.tsx
+│  │  ├─ page.tsx
+│  │  ├─ portfolio
+│  │  │  └─ page.tsx
+│  │  ├─ services
+│  │  │  └─ page.tsx
+│  │  └─ template.tsx
+│  ├─ components
+│  │  ├─ layout
+│  │  │  ├─ Footer.tsx
+│  │  │  └─ Sidebar.tsx
+│  │  └─ ui
+│  │     ├─ Button.tsx
+│  │     ├─ FloatingContact.tsx
+│  │     ├─ LanguageToggle.tsx
+│  │     ├─ LoadingScreen.tsx
+│  │     ├─ Logo.tsx
+│  │     ├─ PageTransition.tsx
+│  │     └─ TransitionLink.tsx
+│  ├─ hooks
+│  ├─ i18n
+│  │  ├─ dictionary.ts
+│  │  ├─ LanguageContext.tsx
+│  │  ├─ locales
+│  │  │  ├─ ar.ts
+│  │  │  └─ en.ts
+│  │  └─ settings.ts
+│  ├─ lib
+│  │  ├─ seo.ts
+│  │  └─ utils.ts
+│  └─ styles
+├─ tailwind.config.ts
+└─ tsconfig.json
+
+```
