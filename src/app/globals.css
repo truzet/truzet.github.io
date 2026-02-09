@@ -45,7 +45,7 @@ body::before {
   background-position: center;
   background-attachment: fixed;
   /* زيادة التعتيم والـ blur */
-  filter: brightness(3.2) saturate(0.5) blur(13px);
+  filter: brightness(5.2) saturate(0.7) blur(13px);
   transform: scale(1.1);
 }
 
@@ -58,8 +58,8 @@ body::after {
   background: radial-gradient(
     ellipse at center,
     rgba(10, 10, 11, 0.7) 0%,
-    rgba(10, 10, 11, 0.9) 50%,
-    rgba(10, 10, 11, 0.98) 100%
+    rgba(10, 10, 11, 0.719) 50%,
+    rgba(10, 10, 11, 0.8) 100%
   );
   pointer-events: none;
 }
