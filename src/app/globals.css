@@ -147,7 +147,7 @@ body::after {
   }
   
   body::before {
-    filter: brightness(0.15) saturate(0.4) blur(4px);
+    filter: brightness(7.2) saturate(0.7) blur(18px);
   }
 }
 
