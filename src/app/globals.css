@@ -45,7 +45,7 @@ body::before {
   background-position: center;
   background-attachment: fixed;
   /* زيادة التعتيم والـ blur */
-  filter: brightness(5.2) saturate(0.7) blur(13px);
+  filter: brightness(7.2) saturate(0.7) blur(18px);
   transform: scale(1.1);
 }
 
